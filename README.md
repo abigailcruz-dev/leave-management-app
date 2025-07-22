@@ -1,28 +1,28 @@
-# 📝 Leave Management App
+#  Leave Management App
 
 The **Leave Management App** is a web-based application that allows employees to apply for leaves and managers to review, approve, or reject those requests. The system includes dashboards for both employees and managers, live status tracking, and leave balance summaries.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🧑‍💼 **Employee Dashboard:**
+-  **Employee Dashboard:**
   - Submit leave requests
   - View application status
   - Track leave balance
 
-- 👨‍💼 **Manager Dashboard:**
+-  **Manager Dashboard:**
   - View all employee leave requests
   - Approve or reject applications
   - Monitor overall leave trends
 
-- 📊 Visual charts (bar and pie) for quick insights
-- 🔐 Authentication system
-- ⚙️ Role-based access control
+-  Visual charts (bar and pie) for quick insights
+-  Authentication system
+-  Role-based access control
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Frontend           | Backend               | Database |
 |--------------------|-----------------------|----------|
@@ -32,11 +32,11 @@ The **Leave Management App** is a web-based application that allows employees to
 
 ---
 
-## 📥 Installation Guide
+##  Installation Guide
 
 Follow the steps below to set up the application on your local machine.
 
-### 1️⃣ Download the Project
+### 1 Download the Project
 
 - Open the GitHub repository: [https://github.com/abigailcruz-dev/leave-management-app](https://github.com/abigailcruz-dev/leave-management-app)
 - Click on **Code > Download ZIP**
@@ -44,9 +44,9 @@ Follow the steps below to set up the application on your local machine.
 
 ---
 
-## 🗄️ 2️⃣ Database Setup (MySQL via XAMPP)
+##  2 Database Setup (MySQL via XAMPP)
 
-> ⚠️ *You must have XAMPP installed. Start both Apache and MySQL.*
+>  *You must have XAMPP installed. Start both Apache and MySQL.*
 
 1. Open **XAMPP Control Panel** and click **Start** for **Apache** and **MySQL**.
 2. Open **phpMyAdmin** (click “Admin” next to MySQL).
@@ -62,7 +62,7 @@ leave_management
 
 ---
 
-## ⚙️ 3️⃣ Backend Setup (Django)
+##  3 Backend Setup (Django)
 
 1. Open a terminal in the project root directory.
 2. Navigate to the backend folder:
@@ -114,7 +114,7 @@ python manage.py runserver
 
 ---
 
-## 🖥️ 4️⃣ Frontend Setup (React.js)
+##  4 Frontend Setup (React.js)
 
 1. Open a new terminal window or split terminal in VS Code.
 2. Navigate to the frontend folder:
@@ -139,7 +139,7 @@ npm run dev
 
 ---
 
-## ✅ You’re Done!
+##  You’re Done!
 
 You now have the full Leave Management App running locally with:
 
@@ -148,7 +148,7 @@ You now have the full Leave Management App running locally with:
 
 ---
 
-## 🔑 Sample User Accounts
+##  Sample User Accounts
 
 Use the following demo accounts to explore the app:
 
@@ -170,7 +170,7 @@ Once logged in as a **manager**, you can:
 
 However:
 
-> ⚠️ If you add a new **manager**, they will be treated as a normal user until you update their permissions in the Django Admin Panel:
+>  If you add a new **manager**, they will be treated as a normal user until you update their permissions in the Django Admin Panel:
 >
 > [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
 >
@@ -183,7 +183,7 @@ This ensures the new manager can access manager-only features correctly.
 
 ---
 
-## 🧑‍🔧 Admin Access
+##  Admin Access
 
 You may create a Django superuser to access the admin panel:
 
@@ -195,7 +195,7 @@ Login here: [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Make sure your MySQL service is always running when you use the app.
 
